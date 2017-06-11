@@ -1,13 +1,12 @@
-package com.example.shoppingmall;
+package com.example.shoppingmall.activity;
 
 import android.content.Intent;
 import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.view.KeyEvent;
 import android.view.MotionEvent;
 
-import static android.R.attr.start;
+import com.example.shoppingmall.R;
 
 public class WelocomActivity extends AppCompatActivity {
 

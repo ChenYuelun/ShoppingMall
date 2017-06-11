@@ -1,4 +1,4 @@
-package com.example.shoppingmall;
+package com.example.shoppingmall.activity;
 
 import android.os.Bundle;
 import android.support.v4.app.FragmentTransaction;
@@ -6,6 +6,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.widget.FrameLayout;
 import android.widget.RadioGroup;
 
+import com.example.shoppingmall.R;
 import com.example.shoppingmall.base.BaseFragment;
 import com.example.shoppingmall.fragments.CartFragment;
 import com.example.shoppingmall.fragments.CommunityFragment;
