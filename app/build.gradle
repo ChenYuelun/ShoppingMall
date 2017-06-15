@@ -36,4 +36,5 @@ dependencies {
     compile 'com.zhy:magic-viewpager:1.0.1'
     compile project(':CountdownViewlibrary')
     compile files('libs/gson-2.2.4.jar')
+    compile files('libs/alipaySdk-20160809.jar')
 }

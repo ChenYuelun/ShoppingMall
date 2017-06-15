@@ -76,7 +76,7 @@ public class CartStorage {
         GoodsBean tempGoodsbean = sparseArray.get(Integer.parseInt(goodsBean.getProduct_id()));
         if (tempGoodsbean != null) {
             //已经添加过
-            tempGoodsbean.setNumber(tempGoodsbean.getNumber() + goodsBean.getNumber());
+            tempGoodsbean.setNumber(goodsBean.getNumber());
         } else {
             //没有添加过
             tempGoodsbean = goodsBean;
@@ -115,6 +115,16 @@ public class CartStorage {
             goodsBeanList.add(goodsBean);
         }
         return goodsBeanList;
+    }
+
+    /**
+     * 是否在购物车中存在
+     * @param product_id
+     * @return
+     */
+    public GoodsBean findDete(String product_id) {
+        return  sparseArray.get(Integer.parseInt(product_id));
+
     }
 
 
