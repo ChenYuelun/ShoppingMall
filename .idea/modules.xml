@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/CountdownViewSample/CountdownViewSample.iml" filepath="$PROJECT_DIR$/CountdownViewSample/CountdownViewSample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CountdownViewlibrary/CountdownViewlibrary.iml" filepath="$PROJECT_DIR$/CountdownViewlibrary/CountdownViewlibrary.iml" />
       <module fileurl="file://$PROJECT_DIR$/ShoppingMall.iml" filepath="$PROJECT_DIR$/ShoppingMall.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>

@@ -8,11 +8,11 @@ import android.widget.RadioGroup;
 
 import com.example.shoppingmall.R;
 import com.example.shoppingmall.base.BaseFragment;
-import com.example.shoppingmall.fragments.CartFragment;
-import com.example.shoppingmall.fragments.CommunityFragment;
-import com.example.shoppingmall.fragments.HomeFragment;
-import com.example.shoppingmall.fragments.TypeFragment;
-import com.example.shoppingmall.fragments.UserFragment;
+import com.example.shoppingmall.home.HomeFragment;
+import com.example.shoppingmall.shoppingcart.fragment.CartFragment;
+import com.example.shoppingmall.community.CommunityFragment;
+import com.example.shoppingmall.type.TypeFragment;
+import com.example.shoppingmall.user.UserFragment;
 
 import java.util.ArrayList;
 

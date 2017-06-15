@@ -18,8 +18,12 @@
         <item name="android:gravity">center</item>
         <item name="android:textColor">@drawable/rb_main_textcolor_selctor</item>
         <item name="android:textSize">10sp</item>
-        <item name="android:layout_marginBottom">2dp</item>
 
+    </style>
+
+    <style name="Theme.AppStartLoadTranslucent" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
     </style>
 
 </resources>

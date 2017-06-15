@@ -18,7 +18,7 @@
 
 
     <RadioGroup
-
+        android:background="@drawable/home_bottom_parent_bg"
         android:id="@+id/rg_main"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

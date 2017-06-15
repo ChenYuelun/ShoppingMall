@@ -15,12 +15,13 @@ public class WelocomActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_welcome);
+        //两秒后进入主界面
         handler.postDelayed(new Runnable() {
             @Override
             public void run() {
                 startMainActivit();
             }
-        }, 3000);
+        }, 2000);
     }
 
     private void startMainActivit() {
@@ -30,13 +31,16 @@ public class WelocomActivity extends AppCompatActivity {
 
     @Override
     public boolean onTouchEvent(MotionEvent event) {
+        //点击直接进入主线程
         handler.removeCallbacksAndMessages(null);
         startMainActivit();
         return super.onTouchEvent(event);
     }
 
+
     @Override
     protected void onDestroy() {
+        //移除消息
         handler.removeCallbacksAndMessages(null);
         super.onDestroy();
     }

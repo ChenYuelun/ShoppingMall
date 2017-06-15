@@ -7,7 +7,7 @@ package com.example.shoppingmall.utils;
 public class Constants {
 
 
-    public static String BASE_URL = "http://192.168.145.2:8080/shoppingmall";
+    public static String BASE_URL = "http://47.93.118.241:8081/android/resources";
 
 
     private static final String BASE_URL_JSON = BASE_URL+"/json/";
